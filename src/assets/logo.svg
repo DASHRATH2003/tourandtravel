@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main text "SKB" -->
+  <text x="10" y="40" font-family="Arial" font-weight="bold" font-size="24" fill="#000000">SKB</text>
+  
+  <!-- "TOURS & TRAVELS" text -->
+  <text x="70" y="40" font-family="Arial" font-size="20" fill="#FF0000">TOURS & TRAVELS</text>
+  
+  <!-- Decorative elements -->
+  <path d="M10 50 C50 30, 150 30, 190 50" stroke="#FFD700" stroke-width="2" fill="none"/>
+  <path d="M10 55 C50 35, 150 35, 190 55" stroke="#00BCD4" stroke-width="2" fill="none"/>
+  
+  <!-- Comfort & Safe icons -->
+  <circle cx="40" cy="65" r="10" stroke="#000000" stroke-width="1" fill="none"/>
+  <circle cx="160" cy="65" r="10" stroke="#000000" stroke-width="1" fill="none"/>
+  <text x="60" y="70" font-family="Arial" font-size="10" fill="#000000">Feel Comfort & Safe</text>
+</svg> 

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <!-- Bus Body -->
+  <rect x="50" y="80" width="300" height="70" rx="10" fill="#4a5568" />
+  <rect x="50" y="60" width="300" height="30" rx="5" fill="#4a5568" />
+  
+  <!-- Windows -->
+  <rect x="70" y="70" width="25" height="20" rx="2" fill="#a0aec0" />
+  <rect x="105" y="70" width="25" height="20" rx="2" fill="#a0aec0" />
+  <rect x="140" y="70" width="25" height="20" rx="2" fill="#a0aec0" />
+  <rect x="175" y="70" width="25" height="20" rx="2" fill="#a0aec0" />
+  <rect x="210" y="70" width="25" height="20" rx="2" fill="#a0aec0" />
+  <rect x="245" y="70" width="25" height="20" rx="2" fill="#a0aec0" />
+  <rect x="280" y="70" width="25" height="20" rx="2" fill="#a0aec0" />
+  <rect x="315" y="70" width="25" height="20" rx="2" fill="#a0aec0" />
+  
+  <!-- Door -->
+  <rect x="80" y="110" width="30" height="40" rx="2" fill="#2d3748" />
+  
+  <!-- Wheels -->
+  <circle cx="100" cy="150" r="15" fill="#1a202c" />
+  <circle cx="100" cy="150" r="7" fill="#718096" />
+  <circle cx="300" cy="150" r="15" fill="#1a202c" />
+  <circle cx="300" cy="150" r="7" fill="#718096" />
+  <circle cx="250" cy="150" r="15" fill="#1a202c" />
+  <circle cx="250" cy="150" r="7" fill="#718096" />
+  
+  <!-- Headlights -->
+  <rect x="50" y="100" width="10" height="10" rx="2" fill="#faf089" />
+  <rect x="340" y="100" width="10" height="10" rx="2" fill="#f56565" />
+  
+  <!-- AC Indicator -->
+  <rect x="200" y="40" width="40" height="20" rx="5" fill="#3182ce" />
+  <text x="220" y="55" font-family="Arial" font-size="12" fill="white" text-anchor="middle">AC</text>
+  
+  <!-- 25 Indicator -->
+  <rect x="150" y="40" width="40" height="20" rx="5" fill="#38a169" />
+  <text x="170" y="55" font-family="Arial" font-size="12" fill="white" text-anchor="middle">25</text>
+  
+  <!-- Text Labels -->
+  <text x="200" y="180" font-family="Arial" font-size="16" font-weight="bold" fill="#2d3748" text-anchor="middle">Mini Bus 25 Seater (AC)</text>
+  <text x="200" y="195" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">25 seats</text>
+</svg>

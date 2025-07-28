@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="120" viewBox="0 0 300 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main text "SKB TOURS & TRAVELS" -->
+  <text x="50" y="50" font-family="Arial" font-weight="bold" font-size="28" fill="#000000">
+    <tspan fill="#1E88E5">SKB</tspan>
+    <tspan fill="#E53935"> TOURS & TRAVELS</tspan>
+  </text>
+  
+  <!-- Decorative waves -->
+  <path d="M30 60 C80 45, 220 45, 270 60" stroke="#FFD700" stroke-width="2" fill="none"/>
+  <path d="M30 65 C80 50, 220 50, 270 65" stroke="#00BCD4" stroke-width="2" fill="none"/>
+  
+  <!-- "Feel Comfort & Safe" text -->
+  <text x="150" y="90" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">Feel Comfort &amp; Safe</text>
+  
+  <!-- Circular icons -->
+  <circle cx="60" cy="85" r="12" stroke="#666666" stroke-width="1" fill="none"/>
+  <circle cx="240" cy="85" r="12" stroke="#666666" stroke-width="1" fill="none"/>
+</svg> 
