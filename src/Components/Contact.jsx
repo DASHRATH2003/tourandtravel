@@ -45,7 +45,6 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-xl mb-1">Phone Number</h3>
                   <p className="text-gray-600">+91 9916599719</p>
-                  <p className="text-gray-600">+91 9686844478</p>
                 </div>
               </div>
 
@@ -55,8 +54,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-xl mb-1">Email Address</h3>
-                  <p className="text-gray-600">info@varshadhaara.com</p>
-                  <p className="text-gray-600">booking@varshadhaara.com</p>
+                  <p className="text-gray-600">infovtt@varshadhaaratours.com</p>
+                  
                 </div>
               </div>
 
@@ -77,7 +76,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-xl mb-1">WhatsApp</h3>
-                  <p className="text-gray-600">+91 98765 43210</p>
+                  <p className="text-gray-600">+91 9916599719</p>
                   <p className="text-gray-600 text-sm">Available 24/7 for booking inquiries</p>
                 </div>
               </div>

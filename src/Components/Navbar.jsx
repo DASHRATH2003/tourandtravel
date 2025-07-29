@@ -8,11 +8,20 @@ const Navbar = () => {
   const [showPackageDropdown, setShowPackageDropdown] = useState(false);
   const location = useLocation();
 
+  // Add scrollToTop function
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   // Close mobile menu when route changes
   useEffect(() => {
     setShowMobileMenu(false);
     setShowServicesDropdown(false);
     setShowPackageDropdown(false);
+    scrollToTop(); // Add scroll to top when route changes
   }, [location]);
 
   const isActive = (path) => {
@@ -42,6 +51,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
+              onClick={scrollToTop}
               className={`font-semibold tracking-wide ${
                 isActive('/') ? 'text-white' : 'text-white'
               } hover:text-yellow-500 transition-colors`}
@@ -50,6 +60,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/about"
+              onClick={scrollToTop}
               className={`font-semibold tracking-wide ${
                 isActive('/about') ? 'text-white' : 'text-white'
               } hover:text-yellow-500 transition-colors`}
@@ -86,8 +97,9 @@ const Navbar = () => {
                     <Link
                       key={index}
                       to={service.path}
+                      onClick={scrollToTop}
                       className={`block px-4 py-2 text-sm ${
-                        isActive(service.path) ? 'text-red-500 bg-gray-50' : 'text-white'
+                        isActive(service.path) ? 'text-yellow-500 bg-gray-50' : 'text-white'
                       } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                     >
                       {service.name}
@@ -124,6 +136,7 @@ const Navbar = () => {
                 >
                   <Link
                     to="/package/Weddingtour"
+                    onClick={scrollToTop}
                     className={`block px-4 py-2 text-sm ${
                       location.pathname === '/package/Weddingtour' ? 'text-gray-800' : 'text--white'
                     } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
@@ -132,16 +145,18 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/package/Grouptour"
+                    onClick={scrollToTop}
                     className={`block px-4 py-2 text-sm ${
-                      location.pathname === '/package/Grouptour' ? 'text-red-500 bg-gray-50' : 'text-gray-800'
+                      location.pathname === '/package/Grouptour' ? 'text-yellow-500 bg-gray-50' : 'text-gray-800'
                     } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                   >
                     Group Tour
                   </Link>
                   <Link
                     to="/package/Honeymoontour"
+                    onClick={scrollToTop}
                     className={`block px-4 py-2 text-sm ${
-                      location.pathname === '/package/Honeymoontour' ? 'text-red-500 bg-gray-50' : 'text-gray-800'
+                      location.pathname === '/package/Honeymoontour' ? 'text-yellow-500 bg-gray-50' : 'text-gray-800'
                     } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                   >
                     Honeymoon Tour
@@ -152,6 +167,7 @@ const Navbar = () => {
            
             <Link
               to="/carlist"
+              onClick={scrollToTop}
               className={`font-semibold tracking-wide ${
                 isActive('/carlist') ? 'text-white' : 'text-white'
               } hover:text-yellow-500 transition-colors`}
@@ -160,6 +176,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/contact"
+              onClick={scrollToTop}
               className="bg-yellow-500 text-white px-6 py-2.5 rounded-full text-sm tracking-wide hover:bg-gray-500 hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5"
             >
               CONTACT US
@@ -205,6 +222,7 @@ const Navbar = () => {
           <div className="flex flex-col space-y-4">
             <Link
               to="/"
+              onClick={scrollToTop}
               className={`text-sm font-semibold ${
                 isActive('/') ? 'text-yellow-500' : 'text-white'
               }`}
@@ -213,6 +231,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/about"
+              onClick={scrollToTop}
               className={`text-sm font-semibold ${
                 isActive('/about') ? 'text-yellow-500' : 'text-white'
               }`}
@@ -247,6 +266,7 @@ const Navbar = () => {
                   <Link
                     key={index}
                     to={service.path}
+                    onClick={scrollToTop}
                     className={`block text-sm font-semibold ${
                       isActive(service.path) ? 'text-yellow-500' : 'text-white'
                     }`}
@@ -283,6 +303,7 @@ const Navbar = () => {
               >
                 <Link
                   to="/package/Weddingtour"
+                  onClick={scrollToTop}
                   className={`block text-sm font-semibold ${
                     location.pathname === '/package/Weddingtour' ? 'text-yellow-500' : 'text-white'
                   } hover:text-yellow-500 transition-colors`}
@@ -291,6 +312,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                   to="/package/Grouptour"
+                  onClick={scrollToTop}
                   className={`block text-sm font-semibold ${
                     location.pathname === '/package/Grouptour' ? 'text-yellow-500' : 'text-white'
                   } hover:text-yellow-500 transition-colors`}
@@ -299,6 +321,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                   to="/package/Honeymoontour"
+                  onClick={scrollToTop}
                   className={`block text-sm font-semibold ${
                     location.pathname === '/package/Honeymoontour' ? 'text-yellow-500' : 'text-white'
                   } hover:text-yellow-500 transition-colors`}
@@ -309,6 +332,7 @@ const Navbar = () => {
             </div>
             <Link
               to="/cartlist"
+              onClick={scrollToTop}
               className={`text-sm font-semibold ${
                 isActive('/cartlist') ? 'text-yellow-500' : 'text-white'
               }`}
@@ -317,6 +341,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/carlist"
+              onClick={scrollToTop}
               className={`text-sm font-semibold ${
                 isActive('/carlist') ? 'text-yellow-500' : 'text-white'
               }`}
@@ -325,6 +350,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/contact"
+              onClick={scrollToTop}
               className="bg-yellow-400 text-white px-6 py-2.5 rounded-full text-sm inline-block text-center hover:bg-gray-600"
             >
               CONTACT US
