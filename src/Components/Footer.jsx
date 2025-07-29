@@ -182,7 +182,7 @@ const Footer = () => {
               <span className="ml-2">Designed with ❤️ for better travel experiences</span>
             </p>
             <div className="flex items-center space-x-2 text-sm">
-              <span className="text-yellow-400 font-semibold">Tour & Travel Project By</span>
+              <span className="text-yellow-400 font-semibold"> Powered By</span>
               <a 
                 href="https://www.innomatricstech.com/" 
                 target="_blank" 
