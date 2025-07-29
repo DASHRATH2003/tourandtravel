@@ -179,7 +179,7 @@ const Footer = () => {
           <div className="flex justify-between items-center">
             <p className="text-sm">
               © {new Date().getFullYear()} VARSHADHAARA TOURS AND TRAVELS PVT LTD. All rights reserved. | 
-              <span className="ml-2">Designed with ❤️ for better travel experiences</span>
+              
             </p>
             <div className="flex items-center space-x-2 text-sm">
               <span className="text-yellow-400 font-semibold"> Powered By</span>

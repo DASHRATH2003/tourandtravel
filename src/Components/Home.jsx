@@ -95,23 +95,23 @@ const Home = () => {
 
   const testimonials = [
     {
-      text: "A fantastic journey with SKB Tours and Travels! Their top-notch infrastructure and customer-centric approach made us feel valued throughout the trip.",
+      text: "At Varshadhaara Tours and Travels Pvt. Ltd., we believe that travel is more than just visiting new places — it's about experiencing cultures, creating lasting memories, and connecting with the world in meaningful ways.",
       author: "Apeksha"
     },
     {
-      text: "Excellent service and professional staff. Made our corporate travel hassle-free.",
+      text: "We believe travel is more than ticking places off a list. It’s about embracing new cultures, sharing meaningful experiences, and creating cherished memories that last a lifetime. With us, every trip is a step toward a richer, more connected world.",
       author: "Rahul"
     },
     {
-      text: "Best tour operator in the city. Very punctual and reliable service.",
+      text: "For us, travel is not just about exploring new destinations — it's about meaningful journeys, heartwarming encounters, and stories you'll tell for years to come. Let us craft experiences that inspire, connect, and leave a lasting impact.",
       author: "Priya"
     },
     {
-      text: "Great experience with their airport pickup service. Very comfortable and on time.",
+      text: "At Varshadhaara Tours and Travels Pvt. Ltd., we believe every trip should be a perfect blend of comfort, discovery, and unforgettable moments. Whether you're chasing adventure or seeking relaxation, we’re here to turn your travel dreams into reality.",
       author: "Amit"
     },
     {
-      text: "Highly recommend their services. Very professional and customer-friendly approach.",
+      text: "At Varshadhaara, we believe that travel is a powerful journey of transformation. It’s not just about visiting new places — it’s about exploring the unknown, engaging with diverse cultures, tasting new cuisines, and creating lifelong memories.",
       author: "Sneha"
     }
   ];
@@ -184,7 +184,7 @@ const Home = () => {
           <div className="absolute inset-0 bg-black opacity-50"></div>
         </div>
         
-        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+        <div className="container mx-auto px-4 -mt-8 sm:px-6 relative z-10">
           <div className="max-w-2xl">
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6">Discover Amazing Destinations</h1>
             <p className="text-base md:text-xl text-gray-200 mb-6 md:mb-8">At Varshadhaara Tours and Travels pvt ltd, we believe that travel is more than just visiting new places — it's about experiencing cultures, making memories, and discovering yourself. With years of experience in the industry, we offer customized tour packages, seamless bookings, and 24/7 customer support to ensure a hassle-free journey.</p>
@@ -567,7 +567,7 @@ const Home = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group md:col-start-2">
               <div className="relative">
                 <img 
-                  src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1709183005/catalog/1621519805890764800/ki2iivaebe2e6oyraplx.webp" 
+                  src="https://skbtoursandtravels.com/wp-content/uploads/2023/08/123.png" 
                   alt="App Duty Services" 
                   className="w-full h-48 object-cover"
                 />
