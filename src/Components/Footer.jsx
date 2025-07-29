@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebookF, FaTwitter, FaInstagram, FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaClock, FaCar, FaHome, FaInfoCircle, FaCarSide, FaPlane, FaPhoneAlt, FaUsers, FaHeart } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaClock, FaCar, FaArrowRight } from 'react-icons/fa';
 import { GiLovers } from 'react-icons/gi';
 import logo from '../assets/logoimage.png';
 
@@ -42,49 +42,49 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="hover:text-yellow-400 transition-colors flex items-center space-x-2">
-                  <FaHome className="text-yellow-400" />
+                  <FaArrowRight className="text-yellow-400" />
                   <span>Home</span>
                 </Link>
               </li>
               <li>
                 <Link to="/about" className="hover:text-yellow-400 transition-colors flex items-center space-x-2">
-                  <FaInfoCircle className="text-yellow-400" />
+                  <FaArrowRight className="text-yellow-400" />
                   <span>About Us</span>
                 </Link>
               </li>
               <li>
                 <Link to="/carlist" className="hover:text-yellow-400 transition-colors flex items-center space-x-2">
-                  <FaCarSide className="text-yellow-400" />
+                  <FaArrowRight className="text-yellow-400" />
                   <span>Car Listing</span>
                 </Link>
               </li>
               <li>
                 <Link to="/package" className="hover:text-yellow-400 transition-colors flex items-center space-x-2">
-                  <FaPlane className="text-yellow-400" />
+                  <FaArrowRight className="text-yellow-400" />
                   <span>Tour Packages</span>
                 </Link>
               </li>
               <li>
                 <Link to="/contact" className="hover:text-yellow-400 transition-colors flex items-center space-x-2">
-                  <FaPhoneAlt className="text-yellow-400" />
+                  <FaArrowRight className="text-yellow-400" />
                   <span>Contact Us</span>
                 </Link>
               </li>
               <li>
                 <Link to="/package/Weddingtour" className="hover:text-yellow-400 transition-colors flex items-center space-x-2">
-                  <FaHeart className="text-yellow-400" />
+                  <FaArrowRight className="text-yellow-400" />
                   <span>Wedding Tour</span>
                 </Link>
               </li>
               <li>
                 <Link to="/package/Grouptour" className="hover:text-yellow-400 transition-colors flex items-center space-x-2">
-                  <FaUsers className="text-yellow-400" />
+                  <FaArrowRight className="text-yellow-400" />
                   <span>Group Tour</span>
                 </Link>
               </li>
               <li>
                 <Link to="/package/Honeymoontour" className="hover:text-yellow-400 transition-colors flex items-center space-x-2">
-                  <GiLovers className="text-yellow-400" />
+                  <FaArrowRight className="text-yellow-400" />
                   <span>Honeymoon Tour</span>
                 </Link>
               </li>
