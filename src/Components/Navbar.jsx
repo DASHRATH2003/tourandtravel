@@ -79,7 +79,7 @@ const Navbar = () => {
               {/* Services Dropdown */}
               {showServicesDropdown && (
                 <div
-                  className="absolute left-0 mt-2 w-72 bg-white rounded-md shadow-lg py-1 z-50"
+                  className="absolute left-0 mt-2 w-72 bg-gray-800 rounded-md shadow-lg py-1 z-50"
                   onMouseLeave={() => setShowServicesDropdown(false)}
                 >
                   {serviceLinks.map((service, index) => (
@@ -87,7 +87,7 @@ const Navbar = () => {
                       key={index}
                       to={service.path}
                       className={`block px-4 py-2 text-sm ${
-                        isActive(service.path) ? 'text-red-500 bg-gray-50' : 'text-gray-800'
+                        isActive(service.path) ? 'text-red-500 bg-gray-50' : 'text-white'
                       } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                     >
                       {service.name}
@@ -125,7 +125,7 @@ const Navbar = () => {
                   <Link
                     to="/package/Weddingtour"
                     className={`block px-4 py-2 text-sm ${
-                      location.pathname === '/package/Weddingtour' ? 'text-red-500 bg-gray-50' : 'text-gray-800'
+                      location.pathname === '/package/Weddingtour' ? 'text-gray-800' : 'text--white'
                     } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                   >
                     Wedding Tour
@@ -168,7 +168,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-800"
+            className="md:hidden text-yellow-400"
             onClick={() => setShowMobileMenu(!showMobileMenu)}
           >
             <svg
@@ -205,24 +205,24 @@ const Navbar = () => {
           <div className="flex flex-col space-y-4">
             <Link
               to="/"
-              className={`text-sm ${
-                isActive('/') ? 'text-red-500' : 'text-gray-800'
+              className={`text-sm font-semibold ${
+                isActive('/') ? 'text-yellow-500' : 'text-white'
               }`}
             >
               HOME
             </Link>
             <Link
               to="/about"
-              className={`text-sm ${
-                isActive('/about') ? 'text-red-500' : 'text-gray-800'
+              className={`text-sm font-semibold ${
+                isActive('/about') ? 'text-yellow-500' : 'text-white'
               }`}
             >
               ABOUT
             </Link>
             <div>
               <button
-                className={`text-sm w-full text-left flex justify-between items-center ${
-                  location.pathname.includes('/services') ? 'text-red-500' : 'text-gray-800'
+                className={`text-sm font-semibold w-full text-left flex justify-between items-center ${
+                  location.pathname.includes('/services') ? 'text-yellow-500' : 'text-white'
                 }`}
                 onClick={() => setShowServicesDropdown(!showServicesDropdown)}
               >
@@ -247,8 +247,8 @@ const Navbar = () => {
                   <Link
                     key={index}
                     to={service.path}
-                    className={`block text-sm ${
-                      isActive(service.path) ? 'text-red-500' : 'text-gray-800'
+                    className={`block text-sm font-semibold ${
+                      isActive(service.path) ? 'text-yellow-500' : 'text-white'
                     }`}
                   >
                     {service.name}
@@ -258,8 +258,8 @@ const Navbar = () => {
             </div>
             <div>
               <button
-                className={`text-sm w-full text-left flex justify-between items-center ${
-                  location.pathname.includes('/package') ? 'text-red-500' : 'text-gray-800'
+                className={`text-sm font-semibold w-full text-left flex justify-between items-center ${
+                  location.pathname.includes('/package') ? 'text-yellow-500' : 'text-white'
                 }`}
                 onClick={() => setShowPackageDropdown(!showPackageDropdown)}
               >
@@ -283,24 +283,24 @@ const Navbar = () => {
               >
                 <Link
                   to="/package/Weddingtour"
-                  className={`block text-sm ${
-                    location.pathname === '/package/Weddingtour' ? 'text-red-500' : 'text-gray-800'
+                  className={`block text-sm font-semibold ${
+                    location.pathname === '/package/Weddingtour' ? 'text-yellow-500' : 'text-white'
                   } hover:text-yellow-500 transition-colors`}
                 >
                   Wedding Tour
                 </Link>
                 <Link
                   to="/package/Grouptour"
-                  className={`block text-sm ${
-                    location.pathname === '/package/Grouptour' ? 'text-red-500' : 'text-gray-800'
+                  className={`block text-sm font-semibold ${
+                    location.pathname === '/package/Grouptour' ? 'text-yellow-500' : 'text-white'
                   } hover:text-yellow-500 transition-colors`}
                 >
                   Group Tour
                 </Link>
                 <Link
                   to="/package/Honeymoontour"
-                  className={`block text-sm ${
-                    location.pathname === '/package/Honeymoontour' ? 'text-red-500' : 'text-gray-800'
+                  className={`block text-sm font-semibold ${
+                    location.pathname === '/package/Honeymoontour' ? 'text-yellow-500' : 'text-white'
                   } hover:text-yellow-500 transition-colors`}
                 >
                   Honeymoon Tour
@@ -309,23 +309,23 @@ const Navbar = () => {
             </div>
             <Link
               to="/cartlist"
-              className={`text-sm ${
-                isActive('/cartlist') ? 'text-red-500' : 'text-gray-800'
+              className={`text-sm font-semibold ${
+                isActive('/cartlist') ? 'text-yellow-500' : 'text-white'
               }`}
             >
               CARTLIST
             </Link>
             <Link
               to="/carlist"
-              className={`text-sm ${
-                isActive('/carlist') ? 'text-red-500' : 'text-gray-800'
+              className={`text-sm font-semibold ${
+                isActive('/carlist') ? 'text-yellow-500' : 'text-white'
               }`}
             >
               CAR LISTING
             </Link>
             <Link
               to="/contact"
-              className="bg-red-500 text-white px-6 py-2.5 rounded-full text-sm inline-block text-center hover:bg-red-600"
+              className="bg-yellow-400 text-white px-6 py-2.5 rounded-full text-sm inline-block text-center hover:bg-gray-600"
             >
               CONTACT US
             </Link>

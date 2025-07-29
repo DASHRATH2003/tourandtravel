@@ -168,7 +168,7 @@ const Home = () => {
       <ContactBar />
 
       {/* Hero Section with Image Carousel */}
-      <section className="relative h-screen flex items-center overflow-hidden">
+      <section className="relative h-[80vh] md:h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           {images.map((image, index) => (
             <div 
@@ -184,23 +184,23 @@ const Home = () => {
           <div className="absolute inset-0 bg-black opacity-50"></div>
         </div>
         
-        <div className="container mx-auto px-6 -mt-14 relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-2xl">
-            <h1 className="text-5xl font-bold text-white mb-6">Discover Amazing Destinations</h1>
-            <p className="text-xl text-gray-200 mb-8">At Varshadhaara Tours and Travels pvt ltd, we believe that travel is more than just visiting new places — it's about experiencing cultures, making memories, and discovering yourself. With years of experience in the industry, we offer customized tour packages, seamless bookings, and 24/7 customer support to ensure a hassle-free journey.</p>
-            <button className="bg-yellow-500 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+            <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6">Discover Amazing Destinations</h1>
+            <p className="text-base md:text-xl text-gray-200 mb-6 md:mb-8">At Varshadhaara Tours and Travels pvt ltd, we believe that travel is more than just visiting new places — it's about experiencing cultures, making memories, and discovering yourself. With years of experience in the industry, we offer customized tour packages, seamless bookings, and 24/7 customer support to ensure a hassle-free journey.</p>
+            <button className="bg-yellow-500 hover:bg-gray-700 text-white font-bold py-2 px-4 md:py-3 md:px-6 rounded-lg transition duration-300">
               Explore Packages
             </button>
           </div>
         </div>
-        
+
         {/* Image Indicators */}
         <div className="absolute bottom-5 left-0 right-0 flex justify-center space-x-2 z-10">
           {images.map((_, index) => (
             <button
               key={index}
               onClick={() => setCurrentImage(index)}
-              className={`w-3 h-3 rounded-full ${index === currentImage ? 'bg-white' : 'bg-gray-400'}`}
+              className={`w-2 h-2 md:w-3 md:h-3 rounded-full ${index === currentImage ? 'bg-white' : 'bg-gray-400'}`}
               aria-label={`Go to slide ${index + 1}`}
             ></button>
           ))}
@@ -222,43 +222,47 @@ const Home = () => {
      
 
       {/* About Us Section */}
-      <section className="py-16  bg-white">
-        <div className="container mx-auto  mt-[-100px] px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">About Us</h2>
+      <section className="py-8 md:py-16 bg-white">
+        <div className="container mx-auto px-4 mt-[-50px] md:mt-[-100px]">
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-8 md:mb-12">About Us</h2>
           
           <div className="max-w-7xl mx-auto">
-            <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
               {/* Content Side */}
-              <div className="w-full md:w-1/2 space-y-4 text-gray-600">
-                <div className="mb-8">
-                 
-                  <div className="text-3xl  font-bold text-yellow-600"> Experienced Tour Experts</div>
+              <div className="w-full md:w-1/2 space-y-3 md:space-y-4 text-gray-600">
+                <div className="mb-6 md:mb-8">
+                  <div className="text-2xl md:text-3xl font-bold text-yellow-600">Experienced Tour Experts</div>
                 </div>
 
-                <p>
-                Varshadhaara Tours and Travels Pvt. Ltd. was incorporated in 2020 and is located at , Bangalore, Karnataka – 560022.
+                <p className="text-sm md:text-base">
+                  Varshadhaara Tours and Travels Pvt. Ltd. was incorporated in 2020 and is located at , Bangalore, Karnataka – 560022.
                 </p>
                 
-                <p>
-                Varshadhaara Tours and Travels is a company that offers professional, timely, and efficient coordination for corporate transportation and workforce mobility. We specialize in fulfilling the internal travel needs of businesses by offering reliable and seamless travel solutions. Our team consists of experienced professionals who maintain a disciplined and friendly relationship with both clients and employees. We are GST-registered  and backed by a well-trained and experienced staff.
+                <p className="text-sm md:text-base">
+                As your business expands, so do your mobility needs. Our scalable services are designed to grow with you—supporting everything from small team transfers to enterprise-level operations across cities.
+
+
                 </p>
-                
-                <p>
-                We hold valid Labour Registration, Labour Certificate, and Professional Tax Certificate. Since our inception, we have worked as a sub-vendor starting from 2016. Over the years, we have delivered consistent services to various multinational companies such as Infosys, TCS, and IBM as a sub-vendor for a period of 5–6 years.
+                <p className="text-sm md:text-base">
+                Our operations are powered by smart tracking and scheduling systems, providing real-time updates, route optimization, and detailed reporting to keep your workforce moving smoothly and safely.
+                  Varshadhaara Tours and Travels is a company that offers professional, timely, and efficient coordination for corporate transportation and workforce mobility.
                 </p>
-                
-                <p>
-                For the past 4 years, we have also been providing transportation services directly to clients as a Direct Vendor, ensuring quality, compliance, and timely operations at every level.
+                <p className="text-sm md:text-base">
+                Choose from a wide range of well-maintained vehicles—from premium sedans for executives to AC coaches for larger teams. All our drivers are professionally trained and background-verified, ensuring a secure travel experience.
+                  Varshadhaara Tours and Travels is a company that offers professional, timely, and efficient coordination for corporate transportation and workforce mobility.
+                </p>
+                <p className="text-sm md:text-base">
+                  Varshadhaara Tours and Travels is a company that offers professional, timely, and efficient coordination for corporate transportation and workforce mobility.
                 </p>
               </div>
 
               {/* Image Side */}
-              <div className="w-full md:w-1/2">
+              <div className="w-full md:w-1/2 mt-6 md:mt-0">
                 <div className="relative rounded-lg overflow-hidden shadow-xl">
                   <img 
                     src="https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15773.jpg" 
                     alt="Our Office" 
-                    className="w-full h-[600px] object-cover"
+                    className="w-full h-[300px] md:h-[600px] object-cover"
                   />
                   <div className="absolute inset-0 bg-blue-900/10"></div>
                 </div>
@@ -409,35 +413,31 @@ const Home = () => {
       </section>
 
       {/* Featured Packages Section */}
-    
 
-      {/* Our Services Section - Full Screen */}
-      <section className="py-16 bg-gray-50 min-h-screen flex flex-col justify-center">
+      {/* Our Services Section */}
+      <section className="py-8 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Our Services</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-8 md:mb-12">Our Services</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-6xl mx-auto">
+            {/* Service Cards - Update each card's padding and image height */}
             {/* Employee Transportation */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
               <div className="relative">
                 <img 
                   src="https://uffizio.com/wp-content/uploads/2024/02/Fleets-2.jpg" 
                   alt="Employee Transportation" 
-                  className="w-full h-48 object-cover"
+                  className="w-full h-40 md:h-48 object-cover"
                 />
-                {/* Hover Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">Employee Transportation</h3>
-                  <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                  <h3 className="text-white font-medium mb-2 md:mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">Employee Transportation</h3>
+                  <button className="bg-black text-white px-4 md:px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
                     Know More
                   </button>
                 </div>
-                <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
-                  <img src="https://img.icons8.com/ios-filled/50/000000/car.png" alt="" className="w-6 h-6" />
-                </div>
               </div>
-              <div className="p-4">
-                <h3 className="text-center text-gray-800 font-medium">Employee Transportation</h3>
+              <div className="p-3 md:p-4">
+                <h3 className="text-center text-gray-800 font-medium text-sm md:text-base">Employee Transportation</h3>
               </div>
             </div>
 
@@ -445,7 +445,7 @@ const Home = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
               <div className="relative">
                 <img 
-                  src="https://www.shreeramcab.com/img/54)%20Pune%20to%20Mumbai%20Airport%20Innova%20Cab.webp" 
+                  src="https://media.istockphoto.com/id/815708966/photo/female-traveler-picking-up-suitcase-from-baggage-claim-line.jpg?s=612x612&w=0&k=20&c=CU1PEGpfUyfifK2usaU0WBj6o0PAWa5BuoCvzx8yWrA=" 
                   alt="Airport Pickup Drop" 
                   className="w-full h-48 object-cover"
                 />
@@ -469,7 +469,7 @@ const Home = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
               <div className="relative">
                 <img 
-                  src="https://media.istockphoto.com/id/1224173886/photo/new-toyota-innova-crysta.jpg?s=612x612&w=0&k=20&c=6jus8dHmgEHOThYZ7CrQSQW5Ay5KKDfOU3DieXrND_I=" 
+                  src="https://media.istockphoto.com/id/478695660/photo/train-station-in-kolkata.jpg?s=612x612&w=0&k=20&c=6kyvFegkPLSQzTsW8fYarMmR-5yf7ajIcddXcQyMIIs=" 
                   alt="Out Station" 
                   className="w-full h-48 object-cover"
                 />
@@ -493,7 +493,7 @@ const Home = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
               <div className="relative">
                 <img 
-                  src="https://allindiataxiservice.com/upload/242.jpg" 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThoNm-MbMWQViHpqiuLHmhHAx0txMetmGEfdhuyHRTkVaqNuszu-71nbQo2rME9E1wL-Y&usqp=CAU" 
                   alt="Tour Packages" 
                   className="w-full h-48 object-cover"
                 />
@@ -518,7 +518,7 @@ const Home = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
               <div className="relative">
                 <img 
-                  src="https://w0.peakpx.com/wallpaper/331/13/HD-wallpaper-innova-cars-kerala-luxury-toyota.jpg" 
+                  src="https://media.istockphoto.com/id/1489123986/photo/travel-for-business-team-at-airport-and-men-catch-flight-for-work-trip-with-conference-or.jpg?s=612x612&w=0&k=20&c=TtfyyN-mkRKAHiOcmNV5IHOWSuL2THEmPgCWXlj7EBM=" 
                   alt="Corporate Tour Services" 
                   className="w-full h-48 object-cover"
                 />
@@ -543,7 +543,7 @@ const Home = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
               <div className="relative">
                 <img 
-                  src="https://5.imimg.com/data5/SELLER/Default/2023/12/365295685/FO/DJ/VA/14936952/toyota-innova-car-rental-service.jpg" 
+                  src="https://media.istockphoto.com/id/679617450/photo/lake-pichola-rajasthan.jpg?s=612x612&w=0&k=20&c=AtPrOK5vPqzJn8RbpzYxvMhq7Lo7AyOahgvvbwAT7Jo=" 
                   alt="Vehicles for Events & Tours" 
                   className="w-full h-48 object-cover"
                 />
@@ -567,7 +567,7 @@ const Home = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group md:col-start-2">
               <div className="relative">
                 <img 
-                  src="https://i.pinimg.com/736x/d0/9d/04/d09d04451a96408e58b72bb111ff4c26.jpg" 
+                  src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1709183005/catalog/1621519805890764800/ki2iivaebe2e6oyraplx.webp" 
                   alt="App Duty Services" 
                   className="w-full h-48 object-cover"
                 />
@@ -592,18 +592,17 @@ const Home = () => {
       </section>
 
       {/* Testimonials and Contact Section */}
-      <section className="py-16 bg-yellow-500">
+      <section className="py-8 md:py-16 bg-yellow-500">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
             {/* Testimonials */}
             <div>
-              <h2 className="text-3xl font-bold text-white mb-8">Testimonials</h2>
-              <div className="bg-white rounded-lg p-6 shadow-lg">
+              <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 md:mb-8">Testimonials</h2>
+              <div className="bg-white rounded-lg p-4 md:p-6 shadow-lg">
                 <div className="relative">
-                  {/* Testimonial Slides */}
                   <div className="overflow-hidden">
                     <div className="text-center">
-                      <p className="text-gray-600 mb-4">
+                      <p className="text-gray-600 text-sm md:text-base mb-4">
                         {testimonials[currentTestimonial].text}
                       </p>
                       <h3 className="font-semibold text-gray-800">
@@ -631,13 +630,13 @@ const Home = () => {
             {/* Contact Form */}
             <div>
               <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-white text-sm mb-1">Name *</label>
                     <input 
                       type="text" 
                       placeholder="First" 
-                      className="w-full px-4 py-2 rounded-md"
+                      className="w-full px-3 md:px-4 py-2 rounded-md text-sm md:text-base"
                       required
                     />
                     <div className="text-xs text-white mt-1">First</div>
@@ -647,7 +646,7 @@ const Home = () => {
                     <input 
                       type="text" 
                       placeholder="Last" 
-                      className="w-full px-4 py-2 rounded-md"
+                      className="w-full px-3 md:px-4 py-2 rounded-md text-sm md:text-base"
                       required
                     />
                     <div className="text-xs text-white mt-1">Last</div>
@@ -698,28 +697,23 @@ const Home = () => {
       {/* Explore More Section */}
     
       {/* Map Section */}
-      <section className="py-16 bg-white">
+      <section className="py-8 md:py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Find Us</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-8 md:mb-12">Find Us</h2>
           <div className="max-w-6xl mx-auto rounded-lg overflow-hidden shadow-xl">
-            {/* Google Map Embed */}
-            <div className="w-full h-96 relative">
-  <iframe 
-    src="https://www.google.com/maps?q=3rd+Block,+2G9M+Jr5,+7,+2nd+Main+Rd,+Parimala+Nagar,+Nandini+Layout,+Bengaluru,+Karnataka+560096&output=embed"
-    width="100%" 
-    height="100%" 
-    style={{ border: 0 }} 
-    allowFullScreen="" 
-    loading="lazy" 
-    referrerPolicy="no-referrer-when-downgrade"
-    title="Our Location"
-    className="absolute inset-0"
-  ></iframe>
-</div>
-
-            
-            {/* Contact Information Overlay */}
-           
+            <div className="w-full h-64 md:h-96 relative">
+              <iframe 
+                src="https://www.google.com/maps?q=3rd+Block,+2G9M+Jr5,+7,+2nd+Main+Rd,+Parimala+Nagar,+Nandini+Layout,+Bengaluru,+Karnataka+560096&output=embed"
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen="" 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Our Location"
+                className="absolute inset-0"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>

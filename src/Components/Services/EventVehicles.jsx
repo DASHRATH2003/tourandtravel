@@ -16,13 +16,10 @@ const EventVehicles = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            About Us
+            Event Vehicles
           </h1>
           <p className="text-white text-lg leading-relaxed">
-            We are a passionate team committed to delivering top-quality
-            services and experiences to our clients. Our mission is to provide
-            reliable solutions tailored to your needs— whether it's
-            transportation, event planning, or corporate tours.
+          Make your events truly memorable with Varshadhaara Tours and Travels’ dedicated event vehicle services. We provide reliable, stylish, and fully managed transportation for all types of events—ensuring smooth logistics from start to finish.
           </p>
         </div>
 
@@ -66,7 +63,7 @@ const EventVehicles = () => {
                 Our fleet includes well-maintained vehicles with professional drivers, ensuring a comfortable and safe journey for all your special occasions. We specialize in both short-term and long-term vehicle rentals for events.
               </p>
               
-              <br /><p>Make every occasion smooth and stress-free with our expertly maintained vehicles and courteous drivers. Whether it’s a one-day event or a multi-day celebration, we’ve got your transport covered.</p>
+              <br /><p className='text-gray-700 leading-relaxed mb-6'>Make every occasion smooth and stress-free with our expertly maintained vehicles and courteous drivers. Whether it’s a one-day event or a multi-day celebration, we’ve got your transport covered.</p>
             </div>
           </div>
 
