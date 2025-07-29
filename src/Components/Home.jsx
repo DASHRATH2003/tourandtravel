@@ -421,7 +421,7 @@ const Home = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  src="https://uffizio.com/wp-content/uploads/2024/02/Fleets-2.jpg" 
                   alt="Employee Transportation" 
                   className="w-full h-48 object-cover"
                 />

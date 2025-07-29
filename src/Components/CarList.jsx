@@ -7,25 +7,25 @@ const CarList = () => {
     {
       id: 1,
       name: 'Etios or Desire (Sedan)',
-      image: '/images/cars/whiteinnova.jpg',
+      image: '/images/cars/image1.webp',
       seats: 4
     },
     {
       id: 2,
       name: 'Innova or Ertiga or Xylo (SUV)',
-      image: '/images/cars/suv.png',
+      image: '/images/cars/image2.webp',
       seats: 7
     },
     {
       id: 3,
       name: 'Innova Crysta (SUV Prime)',
-      image: '/images/cars/endsuv.png',
+      image: '/images/cars/image3.jpg',
       seats: 7
     },
     {
       id: 4,
       name: 'Innova Hycross Hybrid (SUV Luxury)',
-      image: '/images/cars/6th.jpeg',
+      image: '/images/cars/image4.avif',
       seats: 7
     },
     {
@@ -37,43 +37,43 @@ const CarList = () => {
     {
       id: 6,
       name: 'Force Traveller (AC)',
-      image: '/images/cars/4suv.jpg',
+      image: '/images/cars/image6.avif',
       seats: 12
     },
     {
       id: 7,
       name: 'Mini Bus (Non-AC)',
-      image: '/images/cars/9th.jpeg',
+      image: '/images/cars/image7.jpg',
       seats: 21
     },
     {
       id: 8,
       name: 'Mini Bus (AC)',
-      image: '/images/cars/8thsuv.jpeg',
+      image: '/images/cars/image8.webp',
       seats: 21
     },
     {
       id: 9,
       name: 'Mini Bus 25 Seater (Non-ac)',
-      image: '/images/cars/11.avif',
+      image: '/images/cars/image9.jpg',
       seats: 25
     },
     {
       id: 10,
       name: 'Mini Bus 25 Seater (AC)',
-      image: '/images/cars/12.jpeg',
+      image: '/images/cars/image10.webp',
       seats: 25
     },
     {
       id: 11,
       name: 'Mini Bus 33 Seater (Non-ac)',
-      image: '/images/cars/11.avif',
+      image: '/images/cars/image11.jpeg',
       seats: 33
     },
     {
       id: 12,
       name: 'Mini Bus 33 Seater (AC)',
-      image: '/images/cars/last.jpg',
+      image: '/images/cars/image12.png',
       seats: 33
     }
   ];

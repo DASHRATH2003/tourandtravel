@@ -55,7 +55,7 @@ const OutStation = () => {
           {/* Image */}
           <div className="md:w-1/2">
             <img 
-              src="https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/140809/innova-crysta-exterior-left-front-three-quarter.jpeg?isig=0&q=80" 
+              src="https://media.istockphoto.com/id/538562985/photo/passenger-on-platforms-at-the-railway-station-of-jaipur.jpg?s=612x612&w=0&k=20&c=6zcVTV0rGUUbebqw4hkYPdEoMDHXz7AQfuyU7wvbFCU=" 
               alt="Outstation Travel" 
               className="rounded-lg shadow-xl w-full h-[400px] object-cover"
             />
@@ -96,7 +96,7 @@ const OutStation = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
                 <img 
-                  src="https://mrsinghcab.com/uploads/cab/1696941377Innova.webp" 
+                  src="https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg" 
                   alt="Outstation Car" 
                   className="w-full h-auto"
                 />

@@ -57,7 +57,7 @@ const AirportPickup = () => {
           {/* Image */}
           <div className="md:w-1/2">
             <img 
-              src="https://selfdrivecarchandigarh.com/wp-content/uploads/2023/07/innova-crysta.jpg" 
+              src="https://thumbs.dreamstime.com/b/family-traveling-airport-luggage-dreamstime-ai-generated-your-design-360609661.jpg" 
               alt="Airport Pickup Service" 
               className="rounded-lg shadow-xl w-full h-[400px] object-cover"
             />
@@ -98,7 +98,7 @@ const AirportPickup = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
                 <img 
-                  src="https://i.pinimg.com/736x/d0/9d/04/d09d04451a96408e58b72bb111ff4c26.jpg" 
+                  src="https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg" 
                   alt="Airport Transfer Car" 
                   className="w-full h-auto"
                 />

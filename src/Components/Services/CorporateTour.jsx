@@ -54,7 +54,7 @@ const CorporateTour = () => {
           {/* Image */}
           <div className="md:w-1/2">
             <img 
-              src="https://filmshoppee.com/wp-content/uploads/2024/11/IMG_20241109_140612.jpg" 
+              src="https://5.imimg.com/data5/DL/CT/GLADMIN-47171644/corporate-tours-service.png" 
               alt="Corporate Tour" 
               className="rounded-lg shadow-xl w-full h-[400px] object-cover"
             />

@@ -30,7 +30,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="sticky top-0 left-0 w-full bg-blue-400 shadow-md z-40">
+    <nav className="sticky top-0 left-0 w-full bg-gray-900 shadow-md z-40">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -42,24 +42,24 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className={`text-bold tracking-wide ${
-                isActive('/') ? 'text-light--500' : 'text-gray-800'
+              className={`font-semibold tracking-wide ${
+                isActive('/') ? 'text-white' : 'text-white-800'
               } hover:text-yellow-500 transition-colors`}
             >
               HOME
             </Link>
             <Link
               to="/about"
-              className={`text-bold tracking-wide ${
-                isActive('/about') ? 'text-red-500' : 'text-gray-800'
+              className={`font-semibold tracking-wide ${
+                isActive('/about') ? 'text-white' : 'text-white'
               } hover:text-yellow-500 transition-colors`}
             >
               ABOUT
             </Link>
             <div className="relative">
               <button
-                className={`text-bold tracking-wide ${
-                  location.pathname.includes('/services') ? 'text-red-500' : 'text-gray-800'
+                className={`font-semibold tracking-wide ${
+                  location.pathname.includes('/services') ? 'text-white' : 'text-white'
                 } hover:text-yellow-500 transition-colors flex items-center`}
                 onClick={() => setShowServicesDropdown(!showServicesDropdown)}
                 onMouseEnter={() => setShowServicesDropdown(true)}
@@ -98,8 +98,8 @@ const Navbar = () => {
             </div>
             <div className="relative">
               <button
-                className={`text-bold tracking-wide ${
-                  location.pathname.includes('/package') ? 'text-red-500' : 'text-gray-800'
+                className={`font-semibold tracking-wide ${
+                  location.pathname.includes('/package') ? 'text-white' : 'text-white'
                 } hover:text-yellow-500 transition-colors flex items-center`}
                 onClick={() => setShowPackageDropdown(!showPackageDropdown)}
                 onMouseEnter={() => setShowPackageDropdown(true)}
@@ -152,8 +152,8 @@ const Navbar = () => {
            
             <Link
               to="/carlist"
-              className={`text-bold tracking-wide ${
-                isActive('/carlist') ? 'text-red-500' : 'text-gray-800'
+              className={`font-semibold tracking-wide ${
+                isActive('/carlist') ? 'text-white' : 'text-white'
               } hover:text-yellow-500 transition-colors`}
             >
               CAR LISTING

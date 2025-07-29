@@ -3,7 +3,7 @@ import { FaPhone, FaEnvelope, FaFacebookF, FaInstagram, FaTwitter, FaYoutube } f
 
 const TopBar = () => {
   return (
-    <div className="bg-gray-900 text-white py-2 hidden md:block">
+    <div className="bg-blue-900 text-white py-2 hidden md:block">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-6">

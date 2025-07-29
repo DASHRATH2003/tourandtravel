@@ -54,7 +54,7 @@ const EmployeeTransport = () => {
           {/* Image */}
           <div className="md:w-1/2">
             <img 
-              src="https://mrsinghcab.com/uploads/cab/1696941377Innova.webp" 
+              src="https://5.imimg.com/data5/SELLER/Default/2023/2/OL/VM/VX/152044382/employee-transportation-services.jpeg" 
               alt="Airport Pickup Service" 
               className="rounded-lg shadow-xl w-full h-[400px] object-cover"
             />
@@ -95,7 +95,7 @@ const EmployeeTransport = () => {
             <div className="md:w-1/2">                                         
               <div className="bg-gray-100 rounded-lg p-8">
                 <img 
-                  src="https://www.team-bhp.com/sites/default/files/styles/check_extra_large_for_review/public/toyota-innova-crysta-1.JPG" 
+                  src="https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg" 
                   alt="Airport Transfer Car" 
                   className="w-full h-auto"
                 />

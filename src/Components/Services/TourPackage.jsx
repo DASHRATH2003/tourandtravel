@@ -58,7 +58,7 @@ const TourPackage = () => {
           {/* Image */}
           <div className="md:w-1/2">
             <img 
-              src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fmedia.mahindrafirstchoice.com%2Flive_web_images%2Fusedcarsimg%2Fmfc%2F2387%2F613340%2Fcover_image-20240716153954.jpg&w=750&q=75" 
+              src="https://www.ayodhyatourism.online/assets/images/ayodhya-temple.webp" 
               alt="Tour Package" 
               className="rounded-lg shadow-xl w-full h-[400px] object-cover"
             />

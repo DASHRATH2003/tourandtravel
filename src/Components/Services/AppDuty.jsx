@@ -54,7 +54,7 @@ const AppDuty = () => {
           {/* Image */}
           <div className="md:w-1/2">
             <img 
-              src="https://imgd.aeplcdn.com/300x225/vimages/202506/4021825_115988_3_1750490242744.jpg?q=80" 
+              src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkyMi1rdWwtMjJfMi5qcGc.jpg" 
               alt="App Duty Service" 
               className="rounded-lg shadow-xl w-full h-[400px] object-cover"
             />

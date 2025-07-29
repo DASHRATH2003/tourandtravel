@@ -54,7 +54,7 @@ const EventVehicles = () => {
           {/* Image */}
           <div className="md:w-1/2">
             <img 
-              src="https://www.chennaitravels.in/wp-content/uploads/2024/10/Hire-Innova-Hycross.webp" 
+              src="https://thumbs.dreamstime.com/b/haribo-vehicles-le-markstein-france-july-passing-publicity-caravan-road-to-mountain-pass-le-markstein-45163106.jpg" 
               alt="Event Vehicles" 
               className="rounded-lg shadow-xl w-full h-[400px] object-cover"
             />
