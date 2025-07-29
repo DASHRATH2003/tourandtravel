@@ -4,28 +4,46 @@ const TourPackage = () => {
   return (
     <div className="pt-20">
       {/* Header Section */}
-      <div className="bg-yellow-500 mt-[-100px] py-16 relative">
-        <h1 className="text-5xl font-bold text-white text-center">Tour Package Services</h1>
-        
+      <div
+        className="relative bg-cover bg-center bg-no-repeat py-16 mt-[-100px]"
+        style={{
+          backgroundImage:
+            "url('https://t3.ftcdn.net/jpg/03/01/48/18/360_F_301481839_p4RvuPBeFTeNvDXyl2ez822gZhQ7ZWEF.jpg')",
+        }}
+      >
+        {/* Optional Overlay */}
+        <div className="absolute inset-0 bg-black/50 z-0"></div>
+
+        <div className="relative z-10 max-w-4xl mx-auto px-6">
+          <h1 className="text-5xl font-bold text-white text-left mb-6">
+            Tour Package Service
+          </h1>
+          <p className="text-white text-lg leading-relaxed">
+          Explore the world your way with VARSHADHAARA TOURS AND TRAVELS’ expertly curated tour packages. 
+We offer a wide range of customizable domestic and international travel packages designed to meet 
+your unique interests, schedule, and budget. Whether it’s a family vacation, a romantic getaway.
+          </p>
+        </div>
+
         {/* Social Links */}
         <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
           <div className="flex flex-col gap-2">
-            <a 
-              href="https://wa.me/your-number" 
-              target="_blank" 
+            <a
+              href="https://wa.me/your-number"
+              target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white p-3 hover:bg-green-600 transition-colors"
             >
               <i className="fab fa-whatsapp text-2xl"></i>
             </a>
-            <a 
-              href="tel:your-number" 
+            <a
+              href="tel:your-number"
               className="bg-blue-500 text-white p-3 hover:bg-blue-600 transition-colors"
             >
               <i className="fas fa-phone text-2xl"></i>
             </a>
-            <a 
-              href="mailto:your-email" 
+            <a
+              href="mailto:your-email"
               className="bg-black text-white p-3 hover:bg-gray-800 transition-colors"
             >
               <i className="fas fa-envelope text-2xl"></i>

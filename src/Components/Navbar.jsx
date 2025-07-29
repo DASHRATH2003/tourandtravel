@@ -43,7 +43,7 @@ const Navbar = () => {
             <Link
               to="/"
               className={`font-semibold tracking-wide ${
-                isActive('/') ? 'text-white' : 'text-white-800'
+                isActive('/') ? 'text-white' : 'text-white'
               } hover:text-yellow-500 transition-colors`}
             >
               HOME

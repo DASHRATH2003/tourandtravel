@@ -4,28 +4,45 @@ const Weddingtour = () => {
   return (
     <div className="pt-20">
       {/* Header Section */}
-      <div className="bg-yellow-500 py-16 mt-[-100px] relative">
-        <h1 className="text-5xl font-bold text-white text-center">Wedding Tour Package</h1>
+      <div
+        className="relative bg-cover bg-center bg-no-repeat py-16 mt-[-100px]"
+        style={{
+          backgroundImage:
+            "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwZvXdTJ-FO8nZDlGNuxaeSPZd91sKJZhiAw&s')",
+        }}
+      >
+        {/* Optional Overlay */}
+        <div className="absolute inset-0 bg-black/50 z-0"></div>
+
+        <div className="relative z-10 max-w-4xl mx-auto px-6">
+          <h1 className="text-5xl font-bold text-white text-left mb-6">
+            Wedding Tour
+          </h1>
+          <p className="text-white text-lg leading-relaxed">
+          Celebrate your big day in style with VARSHADHAARA TOURS AND TRAVELS' premium wedding tour services. 
+          We specialize in organizing seamless, luxurious travel arrangements for weddings — whether it's transporting guests from airports.
+          </p>
+        </div>
 
         {/* Social Links */}
         <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
           <div className="flex flex-col gap-2">
-            <a 
-              href="https://wa.me/your-number" 
-              target="_blank" 
+            <a
+              href="https://wa.me/your-number"
+              target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white p-3 hover:bg-green-600 transition-colors"
             >
               <i className="fab fa-whatsapp text-2xl"></i>
             </a>
-            <a 
-              href="tel:your-number" 
+            <a
+              href="tel:your-number"
               className="bg-blue-500 text-white p-3 hover:bg-blue-600 transition-colors"
             >
               <i className="fas fa-phone text-2xl"></i>
             </a>
-            <a 
-              href="mailto:your-email" 
+            <a
+              href="mailto:your-email"
               className="bg-black text-white p-3 hover:bg-gray-800 transition-colors"
             >
               <i className="fas fa-envelope text-2xl"></i>
@@ -46,24 +63,14 @@ const Weddingtour = () => {
               <p className="text-gray-700 leading-relaxed mb-6">
                 Our wedding tour packages are designed to provide you and your guests with a seamless and comfortable experience. We handle all transportation needs with style and elegance.
               </p>
-              <div className="mt-8 space-y-4">
-                <div className="flex items-center gap-3">
-                  <i className="fas fa-check-circle text-yellow-500"></i>
-                  <span className="text-gray-700">Luxury Vehicle Fleet</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <i className="fas fa-check-circle text-yellow-500"></i>
-                  <span className="text-gray-700">Professional Coordination</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <i className="fas fa-check-circle text-yellow-500"></i>
-                  <span className="text-gray-700">Customized Decorations</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <i className="fas fa-check-circle text-yellow-500"></i>
-                  <span className="text-gray-700">24/7 Support Service</span>
-                </div>
-              </div>
+              <p className="text-gray-700 leading-relaxed mb-6" >We offer a fleet of premium vehicles for the bride, groom, families, and guests — including luxury cars, AC coaches, and tempo travellers. 
+Our trained chauffeurs, timely coordination, and personalized travel planning guarantee that every moment goes off without a hitch.
+<br />
+Need to manage outstation guests? We’ve got you covered with end-to-end travel support, accommodation transfers, and sightseeing add-ons 
+for guests who want to explore the local culture. Planning a honeymoon? We can curate romantic getaway packages to make your first trip 
+as a couple extra special.
+
+</p>
             </div>
           </div>
 

@@ -331,7 +331,7 @@ const Home = () => {
             {/* 6. Automated Safe Drop */}
             <div className="bg-white rounded-lg p-6 text-center shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-16 h-16 mx-auto mb-4 rounded-full border-2 border-gray-200 flex items-center justify-center">
-                <img src="https://img.icons8.com/ios/50/notification.png" alt="Safe Drop" className="w-8 h-8" />
+                <img src="https://media.istockphoto.com/id/953520974/vector/tick-mark-approved-icon-shield-vector-on-white-background.jpg?s=612x612&w=0&k=20&c=lalLRIXMNvWP6JuqHjoz_h0q-iQXSgOgI5pztVZ6SN8=" alt="Safe Drop" className="w-8 h-8" />
               </div>
               <h3 className="text-lg font-semibold mb-3 text-gray-800">Automated Safe Drop Confirmation</h3>
               <p className="text-gray-600 text-sm">
@@ -397,7 +397,7 @@ const Home = () => {
             {/* 12. Web/Mobile Monitoring */}
             <div className="bg-white rounded-lg p-6 text-center shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-16 h-16 mx-auto mb-4 rounded-full border-2 border-gray-200 flex items-center justify-center">
-                <img src="https://img.icons8.com/ios/50/mobile.png" alt="Mobile" className="w-8 h-8" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR95-_8PBew2duvk1E2tKAUxqmuXd4ZMmt0GUGBmKCCWrPjKQl2RdZtfPt4Wxo9qB1RY-k&usqp=CAU" alt="Mobile" className="w-8 h-8" />
               </div>
               <h3 className="text-lg font-semibold mb-3 text-gray-800">Web/Mobile Monitoring</h3>
               <p className="text-gray-600 text-sm">

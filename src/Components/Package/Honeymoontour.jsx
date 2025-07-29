@@ -4,28 +4,45 @@ const Honeymoontour = () => {
   return (
     <div className="pt-20">
       {/* Header Section */}
-      <div className="bg-yellow-500 py-16 mt-[-100px] relative">
-        <h1 className="text-5xl font-bold text-white text-center">Honeymoon Tour Package</h1>
+      <div
+        className="relative bg-cover bg-center bg-no-repeat py-16 mt-[-100px]"
+        style={{
+          backgroundImage:
+            "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6yysQoWlDd8ulNym-CDXOr-mCBDNF6JHgRQ&s')",
+        }}
+      >
+        {/* Optional Overlay */}
+        <div className="absolute inset-0 bg-black/50 z-0"></div>
+
+        <div className="relative z-10 max-w-4xl mx-auto px-6">
+          <h1 className="text-5xl font-bold text-white text-left mb-6">
+            HaneymoonTour
+          </h1>
+          <p className="text-white text-lg leading-relaxed">
+          Begin your new journey together with an unforgettable honeymoon, curated by VARSHADHAARA TOURS AND TRAVELS. 
+          We offer personalized honeymoon tour packages that combine romance, luxury, and adventure in stunning destinations across India and abroad.
+          </p>
+        </div>
 
         {/* Social Links */}
         <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
           <div className="flex flex-col gap-2">
-            <a 
-              href="https://wa.me/your-number" 
-              target="_blank" 
+            <a
+              href="https://wa.me/your-number"
+              target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white p-3 hover:bg-green-600 transition-colors"
             >
               <i className="fab fa-whatsapp text-2xl"></i>
             </a>
-            <a 
-              href="tel:your-number" 
+            <a
+              href="tel:your-number"
               className="bg-blue-500 text-white p-3 hover:bg-blue-600 transition-colors"
             >
               <i className="fas fa-phone text-2xl"></i>
             </a>
-            <a 
-              href="mailto:your-email" 
+            <a
+              href="mailto:your-email"
               className="bg-black text-white p-3 hover:bg-gray-800 transition-colors"
             >
               <i className="fas fa-envelope text-2xl"></i>
