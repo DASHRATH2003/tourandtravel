@@ -13,7 +13,7 @@ const TopBar = () => {
             </a>
             <a href="mailto:info@varshadhaara.com" className="flex items-center space-x-2 text-sm hover:text-red-500 transition-colors">
               <FaEnvelope className="text-red-500" />
-              <span>infovtt@varshadhaaratours</span>
+              <span>infovtt@varshadhaaratours.com</span>
             </a>
           </div>
           <div className="flex items-center space-x-4">
